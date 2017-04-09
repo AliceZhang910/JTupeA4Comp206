@@ -21,6 +21,10 @@ main(char [] inputCommand, char[] userInventory) {
     //reads input until the first '='
     for(int i = 0; i<200 && input!='='; i++);
     //reads the String until first '&'
+    //for (int j=0; input [i] != '&'; j++, i++){
+    // command[j]=input[i];
+    //}
+    //command[j]='\0';
     for(int j = i; i<200 && input[i]!='&'; i++)
     {
       //saves the command into command array
